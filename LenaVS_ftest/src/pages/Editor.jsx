@@ -1028,7 +1028,6 @@ const Editor = () => {
             stanzaCount={stanzas.length}
             syncStatus={syncStatus}
             onNotify={pushNotice}
-            onSyncLyrics={handleAutoSyncLyrics}
             isSyncingLyrics={isSyncingLyrics}
             mediaFiles={mediaFiles}
             mediaMetadata={mediaMetadata}
